@@ -1,0 +1,23 @@
+
+# If 'date' is other than date type, convert `date` to date type, else, provide the code that would be needed to convertthe datatype. 
+# First day in the dataset
+# Last day in the dataset 
+# Aggregate confirmed cases and confirmed deaths per state
+# Which state has the max confirmed cases?
+# Which state has the max confirmed deaths?
+# Do we have the data for all the states?
+# How many counties is in each state?
+# create dataframe masks by reading dbfs:/databricks-datasets/COVID/covid-19-data/mask-use/mask-use-by-county.csv
+# Make two groups of frequency of wearing masks: almost_never (NEVER+RARELY) and almost_always (FREQUENTLY+ALWAYS): masks_groups
+# Join masks_groups and counties: mask_use
+# What happened during the join? 
+# It's a good practice to verify (count lines for counties, mask_groups and mask_use)
+# Keep data for only one state
+# For the state selected above, how would you visualize the mask use? Using one or more visualizations, explore the data 
+# to try and find a correlation between mask use and the number of cases/deaths.
+# Save mask_use as a Parquet file in directory "output/"
+# Display the saved file and note how it is saved.
+# On how many partitions is this file partitioned: dbfs:/databricks-datasets/COVID/covid-19-data/mask-use/mask-use-by-county.csv?
+
+
+https://databricks-prod-cloudfront.cloud.databricks.com/public/4027ec902e239c93eaaa8714f173bcfc/3659186372171255/1434790582959444/2193376691219143/latest.html
