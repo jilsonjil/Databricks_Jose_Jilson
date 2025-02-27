@@ -1,0 +1,8 @@
+1. count the occurence of each word
+2. change all capital letters to lower case
+3. eliminate stopwords 
+4. sort in alphabetical order
+5. sort from most to least frequent word
+6. remove punctuations
+
+https://databricks-prod-cloudfront.cloud.databricks.com/public/4027ec902e239c93eaaa8714f173bcfc/3659186372171255/1535733748950161/2193376691219143/latest.html
